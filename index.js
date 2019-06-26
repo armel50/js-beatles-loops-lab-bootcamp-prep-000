@@ -13,6 +13,7 @@ function theBeatlesPlay(arrayMusicians,arrayInstruments){
 var inc=0;
 function johnLennonFacts(array){
   while(inc<array.length){
+    var req = array[inc];
     array[inc] = "";
     inc++;
   }
