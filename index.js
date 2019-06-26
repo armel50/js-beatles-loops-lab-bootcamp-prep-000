@@ -19,5 +19,5 @@ function johnLennonFacts(array){
     newArray.push(array[inc]+"!!!")  ;
     inc++;
   }
-  return array+"!!!";
+  return array;
 }
