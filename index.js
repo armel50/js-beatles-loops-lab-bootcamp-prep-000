@@ -14,7 +14,8 @@ var inc=0;
 function johnLennonFacts(array){
   while(inc<array.length){
     var req = array[inc];
-    array[inc] = req +"!!\!";
+    var point = "!!!"
+    array[inc] = req.contact(point);
     inc++;
   }
   return array;
